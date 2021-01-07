@@ -1,0 +1,53 @@
+// Place all the styles related to the quiz controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body{
+    background-image: url("道場4.png");
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .select{
+            font-size: 50px;
+            color: black;
+            position: relative;
+            top: 100px;
+            line-height: 200%;
+            font-weight: bold;
+
+            .select_title{
+                font-size: 70px;
+            }    
+        }
+
+        .write{
+            font-size: 50px;
+            color: black;
+            text-decoration: none;
+            position: relative;
+            top: 100px;
+            line-height: 200%;
+            font-weight: bold;
+
+            .write_title{
+                font-size: 70px;
+            }    
+        }
+
+    }
+
+    .container1{
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        top: 150px;
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,3 @@
+class Honorific < ApplicationRecord
+    
+end
