@@ -199,112 +199,155 @@ function quiz10(){
 //-->
 </SCRIPT>
 
+<p class="home"><%= link_to "クイズへ", quiz_quiz_path %><!--クイズ終了後にのみ表示したい --></p>
+  <div class="quiz_write_area">
+    <div id="quiz_area1" style="display:">
+      <div class="contents1">
+        <span class="quiz_no">第1問</span><br>
+        <div id="">空欄(5字)に「行く」の謙譲語をひらがなで入れなさい。<br>
+        「10時に□□□□□いたします」</div>
+      </div>
 
-<div id="quiz_area1" style="display:">
-    第<span class="quiz_no">1</span>問
-    <div id="">空欄(5字)に「行く」の謙譲語をひらがなで入れなさい。
-    「10時に□□□□□いたします」</div>
-    <div class="quiz_ans_area">
-    <input id="answer1">
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+        <input id="answer1">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz1()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz1()"></FORM>
-</div>
 
-<div id="quiz_area2" style="display:none">
-    第<span class="quiz_no">2</span>問
-    <div id="">空欄(6字)に「来る」の尊敬語をひらがなで入れなさい。
-    「田中さんは7時に□□□□□□ます」</div>
-    <div class="quiz_ans_area">
-    <input id="answer2">
+    <div id="quiz_area2" style="display:none">
+      <div class="contents2">
+        <span class="quiz_no">第2問</span><br>
+        <div id="">空欄(6字)に「来る」の尊敬語をひらがなで入れなさい。<br>
+        「田中さんは7時に□□□□□□ます」</div>
+      </div>
+
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+        <input id="answer2">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz2()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz2()"></FORM>
-</div>
 
-<div id="quiz_area3" style="display:none">
-    第<span class="quiz_no">3</span>問
-    <div id="">空欄(6字)に「食べる」の尊敬語をひらがなで入れなさい。
-    「お土産です。どうぞお□□□□□ください」</div>
-    <div class="quiz_ans_area">
-    <input id="answer3">
+    <div id="quiz_area3" style="display:none">
+      <div class="contents3">
+        <span class="quiz_no">第3問</span><br>
+        <div id="">空欄(6字)に「食べる」の尊敬語をひらがなで入れなさい。<br>
+        「お土産です。どうぞお□□□□□ください」</div>
+      </div>
+      
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+        <input id="answer3">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz3()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz3()"></FORM>
-</div>
 
-<div id="quiz_area4" style="display:none">
-    第<span class="quiz_no">4</span>問
-    <div id="">空欄(3字)に「飲む」の尊敬語をひらがなで入れなさい。
-    「ワインの試飲です。どうぞ□□□ください」</div>
-    <div class="quiz_ans_area">
-    <input id="answer4">
+    <div id="quiz_area4" style="display:none">
+      <div class="contents4">
+        <span class="quiz_no">第4問</span>
+        <div id="">空欄(3字)に「飲む」の尊敬語をひらがなで入れなさい。<br>
+        「ワインの試飲です。どうぞ□□□ください」</div>
+      </div>
+
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+         <input id="answer4">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz4()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz4()"></FORM>
-</div>
-					
+                        
 
-<div id="quiz_area5" style="display:none">
-    第<span class="quiz_no">5</span>問
-    <div id="">空欄(6字)に「見る」の尊敬語をひらがなで入れなさい。
-    「今回の資料ですが、皆さん□□□□□□ましたか？」</div>
-    <div class="quiz_ans_area">
-    <input id="answer5">
+    <div id="quiz_area5" style="display:none">
+      <div class="contents5">
+        <span class="quiz_no">第5問</span>
+        <div id="">空欄(6字)に「見る」の尊敬語をひらがなで入れなさい。<br>
+        「今回の資料ですが、皆さん□□□□□□ましたか？」</div>
+      </div>
+
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+        <input id="answer5">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz5()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz5()"></FORM>
-</div>
 
-<div id="quiz_area6" style="display:none">
-    第<span class="quiz_no">6</span>問
-    <div id="">空欄(7字)に「見る」の謙譲語をひらがなで入れなさい。
-    「講義の動画は昨日、□□□□□□□ました」</div>
-    <div class="quiz_ans_area">
-    <input id="answer6">
+    <div id="quiz_area6" style="display:none">
+      <div class="contents6">
+        <span class="quiz_no">第6問</span>
+        <div id="">空欄(7字)に「見る」の謙譲語をひらがなで入れなさい。<br>
+        「講義の動画は昨日、□□□□□□□ました」</div>
+      </div>
+
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+        <input id="answer6">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz6()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz6()"></FORM>
-</div>
 
-<div id="quiz_area7" style="display:none">
-    第<span class="quiz_no">7</span>問
-    <div id="">空欄(6字)に「知る」の謙譲語をひらがなで入れなさい。
-    ｢佐藤さんのことは□□□□□□おります｣</div>
-    <div class="quiz_ans_area">
-    <input id="answer7">
+    <div id="quiz_area7" style="display:none">
+      <div class="contents7">
+        <span class="quiz_no">第7問</span>
+        <div id="">空欄(6字)に「知る」の謙譲語をひらがなで入れなさい。<br>
+        ｢佐藤さんのことは□□□□□□おります｣</div>
+      </div>
+
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+        <input id="answer7">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz7()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz7()"></FORM>
-</div>
 
-<div id="quiz_area8" style="display:none">
-    第<span class="quiz_no">8</span>問
-    <div id="">空欄(3字)に「書く」の尊敬語をひらがなで入れなさい。
-    ｢こちらにご住所を□□□ください｣</div>
-    <div class="quiz_ans_area">
-    <input id="answer8">
+    <div id="quiz_area8" style="display:none">
+      <div class="contents8">
+        <span class="quiz_no">第8問</span>
+        <div id="">空欄(3字)に「書く」の尊敬語をひらがなで入れなさい。<br>
+        ｢こちらにご住所を□□□ください｣</div>
+      </div>
+
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+        <input id="answer8">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz8()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz8()"></FORM>
-</div>
 
-<div id="quiz_area9" style="display:none">
-    第<span class="quiz_no">9</span>問
-    <div id="">空欄(4字)に「久しぶり」の尊敬語をひらがなで入れなさい。
-    ｢佐藤さん、□□□□しております｣</div>
-    <div class="quiz_ans_area">
-    <input id="answer9">
+    <div id="quiz_area9" style="display:none">
+      <div class="contents9">
+        <span class="quiz_no">第9問</span>
+        <div id="">空欄(4字)に「久しぶり」の尊敬語をひらがなで入れなさい。<br>
+        ｢佐藤さん、□□□□しております｣</div>
+      </div>
+
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+        <input id="answer9">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz9()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz9()"></FORM>
-</div>
-					
+                        
 
-<div id="quiz_area10" style="display:none">
-    第<span class="quiz_no">10</span>問
-    <div id="">空欄(4字)に「わかる」の尊敬語をひらがなで入れなさい。
-    ｢□□□□いただけたでしょうか？｣</div>
-    <div class="quiz_ans_area">
-    <input id="answer10">
+    <div id="quiz_area10" style="display:none">
+      <div class="contents10">
+        <span class="quiz_no">第10問</span>
+        <div id="">空欄(4字)に「わかる」の尊敬語をひらがなで入れなさい。<br>
+        ｢□□□□いただけたでしょうか？｣</div>
+      </div>
+      
+      <div class="quiz_write_answer">回答</div>
+        <div class="quiz_ans_area">
+        <input id="answer10">
+        </div>
+        <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz10()"></FORM>
     </div>
-    <FORM><INPUT type="button" name="ボタン" value="押してね" onClick="quiz10()"></FORM>
-</div>
 
-<div id="score_area" style="display:none">
-    <div id="score"></div>
-    <div id="rank"></div>
-</div>
+  </div>
+
+    <div id="score_area" style="display:none">
+        <div id="score"></div>
+        <div id="rank"></div>
+    </div>
 
 </html>
