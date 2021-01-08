@@ -10,12 +10,12 @@
 /* 問題全体のデザイン */
 
 body{
-    background-image: url("問題.png");
+    background-image: url("道場.png");
     background-size: 100%;
 
 /* 選択問題のデザイン */
     .quiz_area{
-        font-size: 40px;
+        font-size: 50px;
         font-family: "游ゴシック",sans-serif;
         font-weight: bold;
         letter-spacing: 3px;
@@ -119,67 +119,105 @@ body{
         font-weight: bold;
         letter-spacing: 2px;
     
-        line-height: 60px;
-
         text-align: center;
         display: flex;
         justify-content: center;
         
         .quiz_no{
             position: relative;
-            top: -25px;
+            top: 70px;
+            padding: 10px 10px 10px 10px;
+            color: #2c2c2f;
+            background: khaki;
         }
 
         .contents1{
             position: relative;
             top: 90px;
+            padding: 20px 66px 20px 66px;;
+            color: #2c2c2f;
+            background-color: khaki;
+
         }
 
         .contents2{
             position: relative;
             top: 90px;
+            padding: 20px 66px 20px 66px;;
+            color: #2c2c2f;
+            background-color: khaki;
         }
         .contents3{
             position: relative;
             top: 90px;
+            padding: 20px 48px 20px 48px;;
+            color: #2c2c2f;
+            background-color: khaki;
         }
         .contents4{
             position: relative;
             top: 90px;
+            padding: 20px 66px 20px 66px;;
+            color: #2c2c2f;
+            background-color: khaki;
         }
         .contents5{
             position: relative;
             top: 90px;
-        }
+            padding: 20px 66px 20px 66px;;
+            color: #2c2c2f;
+            background-color: khaki;
+       }
         .contents6{
             position: relative;
             top: 90px;
+            padding: 20px 66px 20px 66px;;
+            color: #2c2c2f;
+            background-color: khaki;
         }
         .contents7{
             position: relative;
             top: 90px;
+            padding: 20px 66px 20px 66px;;
+            color: #2c2c2f;
+            background-color: khaki;
         }
         .contents8{
             position: relative;
             top: 90px;
+            padding: 20px 66px 20px 66px;;
+            color: #2c2c2f;
+            background-color: khaki;
         }
         .contents9{
             position: relative;
             top: 90px;
+            padding: 20px 29px 20px 29px;;
+            color: #2c2c2f;
+            background-color: khaki;
         }
         .contents10{
             position: relative;
             top: 90px;
+            padding: 20px 48px 20px 48px;;
+            color: #2c2c2f;
+            background-color: khaki;
         }
 
         .quiz_write_answer{
             position: relative;
             top: 140px;
+            padding: 10px 20px 10px 20px;
+            color: #2c2c2f;
+            background:whitesmoke
         }
 
         .quiz_ans_area{
             position: relative;
             top: 190px;
+            padding: 10px 20px 10px 20px;
+            color: #2c2c2f;
+            background:whitesmoke
         }
 
         FORM{
