@@ -15,12 +15,12 @@ body{
 
 /* 選択問題のデザイン */
     .quiz_area{
-        font-size: 35px;
+        font-size: 40px;
         font-family: "游ゴシック",sans-serif;
         font-weight: bold;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     
-        line-height: 60px;
+        line-height: 65px;
 
         text-align: center;
         display: flex;
@@ -31,7 +31,7 @@ body{
 
     .quiz_select_no{
         position: relative;
-        top: 90px;
+        top: 100px;
     }
 
     .quiz_question{
