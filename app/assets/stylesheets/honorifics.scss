@@ -215,84 +215,94 @@ body{
         .quiz_ans_area{
             position: relative;
             top: 190px;
-            padding: 55px 10px 55px 10px;
+            padding: 25px 10px 65px 10px;
             color: #2c2c2f;
             background:whitesmoke
         }
 
         #answer1{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         #answer2{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         #answer3{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         #answer4{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         #answer5{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         #answer6{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         #answer7{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         #answer8{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         #answer9{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         #answer10{
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
             background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 80px;
+            height: 70px;
             width: 40%;         
         }
 
         FORM{
             position: relative;
-            top: 170px;
+            top: 125px;
         }
     }
 }

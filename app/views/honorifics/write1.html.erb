@@ -10,6 +10,15 @@
 
 let index = 0;
 
+function submit(num){
+         if(document.getElementById("quiz_area"+String(num)).style.display="block"){
+          if (event.keyCode === 13) {
+            document.getElementById("button"+String(num)).click();
+          }
+         }
+        }
+
+
 function quiz1(){
     answer=document.getElementById("answer1").value;
 
@@ -27,6 +36,7 @@ function quiz1(){
     // blockで表示
     document.getElementById("quiz_area2").style.display ="block";
 }
+
 
 function quiz2(){					
     answer=document.getElementById("answer2").value;					
@@ -199,6 +209,7 @@ function quiz10(){
 //-->
 </SCRIPT>
 
+
 <p class="home"><%= link_to "クイズへ", quiz_quiz_path %><!--クイズ終了後にのみ表示したい --></p>
   <div class="quiz_write_area">
     <div id="quiz_area1" style="display:">
@@ -210,9 +221,9 @@ function quiz10(){
 
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-        <input id="answer1">
+        <input id="answer1" autocomplete="off" onkeypress="submit(1);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz1()"></FORM>
+        <FORM><INPUT type="button" name="ボタン" id="button1" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz1()" ></FORM>
     </div>
 
     <div id="quiz_area2" style="display:none">
@@ -224,9 +235,9 @@ function quiz10(){
 
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-        <input id="answer2">
+        <input id="answer2" autocomplete="off" onkeypress="submit(2);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz2()"></FORM>
+        <FORM><INPUT type="button" name="ボタン"  id="button2" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz2()"></FORM>
     </div>
 
     <div id="quiz_area3" style="display:none">
@@ -238,9 +249,9 @@ function quiz10(){
       
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-        <input id="answer3">
+        <input id="answer3" autocomplete="off" onkeypress="submit(3);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz3()"></FORM>
+        <FORM><INPUT type="button" name="ボタン"  id="button3" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz3()"></FORM>
     </div>
 
     <div id="quiz_area4" style="display:none">
@@ -252,9 +263,9 @@ function quiz10(){
 
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-         <input id="answer4">
+        <input id="answer4" autocomplete="off" onkeypress="submit(4);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz4()"></FORM>
+        <FORM><INPUT type="button" name="ボタン"  id="button4" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz4()"></FORM>
     </div>
                         
 
@@ -267,9 +278,9 @@ function quiz10(){
 
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-        <input id="answer5">
+        <input id="answer5" autocomplete="off" onkeypress="submit(5);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz5()"></FORM>
+        <FORM><INPUT type="button" name="ボタン"  id="button5" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz5()"></FORM>
     </div>
 
     <div id="quiz_area6" style="display:none">
@@ -281,9 +292,9 @@ function quiz10(){
 
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-        <input id="answer6">
+        <input id="answer6" autocomplete="off" onkeypress="submit(6);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz6()"></FORM>
+        <FORM><INPUT type="button" name="ボタン"  id="button6" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz6()"></FORM>
     </div>
 
     <div id="quiz_area7" style="display:none">
@@ -295,9 +306,9 @@ function quiz10(){
 
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-        <input id="answer7">
+        <input id="answer7" autocomplete="off" onkeypress="submit(7);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz7()"></FORM>
+        <FORM><INPUT type="button" name="ボタン"  id="button7" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz7()"></FORM>
     </div>
 
     <div id="quiz_area8" style="display:none">
@@ -309,9 +320,9 @@ function quiz10(){
 
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-        <input id="answer8">
+        <input id="answer8" autocomplete="off" onkeypress="submit(8);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz8()"></FORM>
+        <FORM><INPUT type="button" name="ボタン"  id="button8" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz8()"></FORM>
     </div>
 
     <div id="quiz_area9" style="display:none">
@@ -323,9 +334,9 @@ function quiz10(){
 
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-        <input id="answer9">
+        <input id="answer9" autocomplete="off" onkeypress="submit(9);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz9()"></FORM>
+        <FORM><INPUT type="button" name="ボタン"  id="button9" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz9()"></FORM>
     </div>
                         
 
@@ -338,9 +349,9 @@ function quiz10(){
       
       <span class="quiz_write_answer">回答</span>
         <div class="quiz_ans_area">
-        <input id="answer10">
+        <input id="answer10" autocomplete="off" onkeypress="submit(10);">
         </div>
-        <FORM><INPUT type="button" name="ボタン" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz10()"></FORM>
+        <FORM><INPUT type="button" name="ボタン"  id="button10" style="width:10%;padding-right:10px;padding-left:10px;font-size:25px;" value="押してね" onClick="quiz10()"></FORM>
     </div>
 
   </div>
