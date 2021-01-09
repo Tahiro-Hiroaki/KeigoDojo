@@ -1,4 +1,5 @@
 <html lang="ja">
+  
   <head>
     <meta charset="utf-8">
     <title>topのデザイン</title>
@@ -11,12 +12,12 @@
 let index = 0;
 
 function submit(num){
-         if(document.getElementById("quiz_area"+String(num)).style.display="block"){
-          if (event.keyCode === 13) {
+  if(document.getElementById("quiz_area"+String(num)).style.display="block"){
+    if (event.keyCode === 13) {
             document.getElementById("button"+String(num)).click();
-          }
-         }
-        }
+    }
+  }
+}
 
 
 function quiz1(){

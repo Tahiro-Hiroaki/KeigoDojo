@@ -6,23 +6,28 @@
   </head>
 
     <body>
-      <div class="container" style="text-align:center;">
+     <div class="container">
+      <div class="container1" style="text-align:center;">
         <div class="select">
          <div class="select_title">選択の間</div>         
-         <%= link_to "part1", honorifics_select1_path %><br>
-         <%= link_to "part2", honorifics_select2_path %><br>
-         <%= link_to "part3", honorifics_select3_path %><br>
+          <a href="../honorifics/select1">part1</a><br>         
+          <a href="../honorifics/select2">part2</a><br>         
+          <a href="../honorifics/select3">part3</a><br>         
         </div>
 
         <div class="write">
          <div class="write_title">記述の間</div>         
-         <%= link_to "part1", honorifics_write1_path %><br>
-         <%= link_to "part2", honorifics_write2_path %>
+          <a href="../honorifics/write1">part1</a><br>         
+          <a href="../honorifics/write2">part2</a><br>         
         </div>
       </div>
-       <div class="container1">
-        <%= link_to "マイページへ", statics_mypage_path %><!--クイズ終了後にのみ表示したい -->
-       </div>
+
+      <div class="container2">
+        <a href="../statics/mypage">マイページへ</a>
+      </div>
+    
+    </div>
+
     </body>
 
 </html>
