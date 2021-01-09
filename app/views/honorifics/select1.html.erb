@@ -17,7 +17,7 @@ $(function(){
     var aryQuiz = [];
     aryQuiz.push(        
         {
-            question : '「」の台詞に対する応答として適当な選択肢を選びなさい。'\r\n'「こっちまで来れますか？」',
+            question : '「」の台詞に対する応答として適当な選択肢を選びなさい。「こっちまで来れますか？」',
             answer : ['はい、ただいま参ります。', 'はい、行けます。']            
         }
 
@@ -177,19 +177,23 @@ $(function(){
 });
 </script>
 
-<div class="quiz_area sample">
-    <div class="quiz_set"><!-- 追加 回答中の表示 -->
-        <p class="quiz_select_no">第<span class="quiz_no">0</span>問</p>
-        <div class="quiz_question"></div>
-        <div class="quiz_select_answer">回答</div>
-        <div class="quiz_ans_area">
-            <ul></ul>
+<body id="select">
+    <div class="quiz_area sample">
+        <div class="quiz_set"><!-- 追加 回答中の表示 -->
+            <p class="quiz_select_no">第<span class="quiz_no">0</span>問</p>
+            <div class="quiz_question"></div>
+            <div class="quiz_select_answer">回答</div>
+            <div class="quiz_ans_area">
+                <ul></ul>
+            </div>
+            <div class="quiz_area_bg"></div>
+            <div class="quiz_area_icon"></div>
         </div>
-        <div class="quiz_area_bg"></div>
-        <div class="quiz_area_icon"></div>
+        <div class="quiz_result">
+            <img src="認定証1.png">
+        </div><!-- 追加 クイズ終了後の表示 -->
     </div>
-    <div class="quiz_result"></div><!-- 追加 クイズ終了後の表示 -->
-</div>
+</body>
 
 <%= link_to "クイズへ", quiz_quiz_path %><!--クイズ終了後にのみ表示したい --></p>
 

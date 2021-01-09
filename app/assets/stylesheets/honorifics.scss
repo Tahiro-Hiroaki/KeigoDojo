@@ -7,13 +7,11 @@
     padding: 0%;
 }
 
-/* 問題全体のデザイン */
-
-body{
+/* 選択問題のデザイン */
+#select{
     background-image: url("道場.png");
     background-size: 100%;
-
-/* 選択問題のデザイン */
+}
     .quiz_area{
         font-size: 50px;
         font-family: "游ゴシック",sans-serif;
@@ -112,202 +110,227 @@ body{
         color: blue;
     }
 /* .記述問題用のデザイン */
-    .quiz_write_area{
-        font-size: 35px;
-        font-family: "游ゴシック",sans-serif;
-        font-weight: bold;
-        letter-spacing: 2px;
-    
+
+#write{
+    background-image: url("道場.png");
+    background-size: 100%;
+}
+        .quiz_write_area{
+            font-size: 40px;
+            font-family: "游ゴシック",sans-serif;
+            font-weight: bold;
+            letter-spacing: 2px;
+        
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            
+            .quiz_no{
+                position: relative;
+                top: 70px;
+                padding: 10px 24px 10px 24px;
+                color: #2c2c2f;
+                background: khaki;
+            }
+
+            .contents1{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+
+            }
+
+            .contents2{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+            }
+            .contents3{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+            }
+            .contents4{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+            }
+            .contents5{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+        }
+            .contents6{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+            }
+            .contents7{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+            }
+            .contents8{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+            }
+            .contents9{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+            }
+            .contents10{
+                position: relative;
+                top: 90px;
+                padding: 20px 70px 20px 70px;;
+                color: #2c2c2f;
+                background-color: khaki;
+            }
+
+            .quiz_write_answer{
+                position: relative;
+                top: 170px;
+                padding: 10px 33px 10px 33px;
+                color: #2c2c2f;
+                background:whitesmoke
+            }
+
+            .quiz_ans_area{
+                position: relative;
+                top: 190px;
+                padding: 25px 10px 65px 10px;
+                color: #2c2c2f;
+                background:whitesmoke
+            }
+
+            #answer1{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            #answer2{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            #answer3{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            #answer4{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            #answer5{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            #answer6{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            #answer7{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            #answer8{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            #answer9{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            #answer10{
+                font-size: 30px;
+                text-align: center;
+                background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+                height: 70px;
+                width: 40%;         
+            }
+
+            FORM{
+                position: relative;
+                top: 125px;
+            }
+            
+        }
+
+    #score_area{
+        font-size: 50px;
+
         text-align: center;
         display: flex;
         justify-content: center;
+
+        .write_SR{
+            position: absolute;
+            top: 50px;
         
-        .quiz_no{
-            position: relative;
-            top: 70px;
-            padding: 10px 24px 10px 24px;
-            color: #2c2c2f;
-            background: khaki;
-        }
+            a:hover{
+                color:red;
+                text-decoration: none;
+                background-color: khaki;
+            }
 
-        .contents1{
-            position: relative;
-            top: 90px;
-            padding: 20px 155px 20px 155px;;
-            color: #2c2c2f;
-            background-color: khaki;
-
+            a{
+                color: black;
+            }
         }
-
-        .contents2{
-            position: relative;
-            top: 90px;
-            padding: 20px 155px 20px 155px;;
-            color: #2c2c2f;
-            background-color: khaki;
-        }
-        .contents3{
-            position: relative;
-            top: 90px;
-            padding: 20px 137px 20px 137px;;
-            color: #2c2c2f;
-            background-color: khaki;
-        }
-        .contents4{
-            position: relative;
-            top: 90px;
-            padding: 20px 155px 20px 155px;;
-            color: #2c2c2f;
-            background-color: khaki;
-        }
-        .contents5{
-            position: relative;
-            top: 90px;
-            padding: 20px 155px 20px 155px;;
-            color: #2c2c2f;
-            background-color: khaki;
-       }
-        .contents6{
-            position: relative;
-            top: 90px;
-            padding: 20px 155px 20px 155px;;
-            color: #2c2c2f;
-            background-color: khaki;
-        }
-        .contents7{
-            position: relative;
-            top: 90px;
-            padding: 20px 155px 20px 155px;;
-            color: #2c2c2f;
-            background-color: khaki;
-        }
-        .contents8{
-            position: relative;
-            top: 90px;
-            padding: 20px 155px 20px 155px;;
-            color: #2c2c2f;
-            background-color: khaki;
-        }
-        .contents9{
-            position: relative;
-            top: 90px;
-            padding: 20px 118px 20px 118px;;
-            color: #2c2c2f;
-            background-color: khaki;
-        }
-        .contents10{
-            position: relative;
-            top: 90px;
-            padding: 20px 137px 20px 137px;;
-            color: #2c2c2f;
-            background-color: khaki;
-        }
-
-        .quiz_write_answer{
-            position: relative;
-            top: 140px;
-            padding: 10px 33px 10px 33px;
-            color: #2c2c2f;
-            background:whitesmoke
-        }
-
-        .quiz_ans_area{
-            position: relative;
-            top: 190px;
-            padding: 25px 10px 65px 10px;
-            color: #2c2c2f;
-            background:whitesmoke
-        }
-
-        #answer1{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        #answer2{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        #answer3{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        #answer4{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        #answer5{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        #answer6{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        #answer7{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        #answer8{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        #answer9{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        #answer10{
-            font-size: 30px;
-            text-align: center;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            height: 70px;
-            width: 40%;         
-        }
-
-        FORM{
-            position: relative;
-            top: 125px;
-        }
+                
     }
-}
 
-.quiz_result{
-    background-image: url("認定証1.png");
-    background-size: 100%;
-}
 
