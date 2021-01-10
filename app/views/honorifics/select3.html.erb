@@ -17,52 +17,62 @@ $(function(){
     aryQuiz.push(        
         {
             question : '『』の状況に対する応答として適当な選択肢を選びなさい。『お得意先にメールで挨拶するとき』',
+            qbody : '「こっちまで来れますか？」',
             answer : ['いつもお世話になっております。', 'いつもお世話様です。']            
         }
 
         ,{
             question : '「」の台詞に対する応答として適当な選択肢を選びなさい。「私が代わりにやっておくよ。」',
+            qbody : '「こっちまで来れますか？」',
             answer : ['ありがとうございます。', 'いつもすみません。']
         }
 
         ,{
             question : '「」の台詞に対する応答として適当な選択肢を選びなさい。「ここに誤りがあったよ。」',
+            qbody : '「こっちまで来れますか？」',
             answer : ['申し訳ございません。', 'すみません。' ]
         }
 
         ,{
             question : '「」の台詞に対する応答として適当な選択肢を選びなさい。「どちらが良いプランだと思う？」',
+            qbody : '「こっちまで来れますか？」',
             answer : ['弊社では、こちらを採用しております。', 'わが社では、こちらを採用しております。']
         }
 
         ,{
             question : '『』の状況に対する応答として適当な選択肢を選びなさい。『来訪した相手へ、座るように伝えるとき』',
+            qbody : '「こっちまで来れますか？」',
             answer : ['どうぞお掛けください。', 'どうぞお座りください。']
         }
 
         ,{
             question : '『』の状況に対する応答として適当な選択肢を選びなさい。『商品の値下げを告知するとき』',
+            qbody : '「こっちまで来れますか？」',
             answer : ['ただいま値下げしております。', 'ただいま値下げさせていただいてます。']            
         }
 
         ,{
             question : '「」の台詞に対する応答として適当な選択肢を選びなさい。「このデータに関してまとめた物はあるかな？」',
+            qbody : '「こっちまで来れますか？」',
             answer : ['では、書類をお持ちいたします。', 'では、書類のほうをお持ちいたします。']
         }
 
         ,{
             question : '「」の台詞に対する応答として適当な選択肢を選びなさい。「この企画について知っているかい？」',
+            qbody : '「こっちまで来れますか？」',
             answer : ['はい、存じております。', 'はい、存じ上げております。']
         }
     
         ,{
            question : '「」の台詞に対する応答として適当な選択肢を選びなさい。「A商事の佐藤さんは知ってる？」',
+           qbody : '「こっちまで来れますか？」',
            answer : ['はい、存じ上げております。', 'はい、存じております。']
         }
 
     
         ,{
             question : '「」の台詞に対する応答として適当な選択肢を選びなさい。「お手洗いはどこにありますか？」',
+            qbody : '「こっちまで来れますか？」',
             answer : ['突き当たりにございます。', '突き当たりになります']
         }
     );
@@ -82,6 +92,7 @@ $(function(){
         quizArea.find('.quiz_no').text((quiz_cnt + 1));
         //問題文を表示
         quizArea.find('.quiz_question').text(aryQuiz[quiz_cnt]['question']);
+        quizArea.find('.qbody').text(aryQuiz[quiz_cnt]['qbody']);
         //正解の回答を取得する
         var success = aryQuiz[quiz_cnt]['answer'][0];
         //現在の選択肢表示を削除する
@@ -181,6 +192,7 @@ $(function(){
         <div class="quiz_set"><!-- 追加 回答中の表示 -->
             <p class="quiz_select_no">第<span class="quiz_no">0</span>問</p>
             <div class="quiz_question"></div>
+            <div class="qbody"></div>
             <div class="quiz_select_answer">回答</div>
             <div class="quiz_ans_area">
                 <ul></ul>
@@ -188,12 +200,12 @@ $(function(){
             <div class="quiz_area_bg"></div>
             <div class="quiz_area_icon"></div>
         </div>
-        <div class="quiz_result"></div><!-- 追加 クイズ終了後の表示 -->
+        <div class="quiz_result">
+            <img src="認定証1.png">
+            <a href="../quiz/quiz">クイズページへ</a>
+        </div><!-- 追加 クイズ終了後の表示 -->
     </div>
 </body>
-
-<%= link_to "クイズへ", quiz_quiz_path %><!--クイズ終了後にのみ表示したい --></p>
-
 
 </html>
 
