@@ -160,30 +160,33 @@ $(function(){
     //結果を表示する関数
     function quizResult(){
         quizArea.find('.quiz_set').hide();
-        var text = quiz_fin_cnt + '問中' + quiz_success_cnt + '問正解！';
+        var text_count = quiz_success_cnt;
+        var text_class ;
         if(quiz_success_cnt==10){
-            text += '<br>師範';
+            text_class = '<br>師範';
         }
         else if(quiz_success_cnt>=8&&quiz_success_cnt<10){
-            text += '<br>教士';
+            text_class = '<br>教士';
         }
         else if(quiz_success_cnt>=6&&quiz_success_cnt<8){
-            text += '<br>上段';
+            text_class = '<br>上段';
         }
         else if(quiz_success_cnt>=4&&quiz_success_cnt<6){
-            text += '<br>中段';
+            text_class = '<br>中段';
         }
         else if(quiz_success_cnt>=2&&quiz_success_cnt<4){
-            text += '<br>下段';
+            text_class = '<br>下段';
         }        
         else{
-            text += '<br>見習い';
+            text_class = '<br>見習い';
         }
 
 
-        text += '<br><input type="button" value="" class="quiz_restart p-10">';
-        quizArea.find('.quiz_result').html(text);
-        quizArea.find('.quiz_result').show();
+        quizArea.find('.quiz_count').html(text_count);
+        quizArea.find('.quiz_count').show();
+        quizArea.find('.quiz_class').html(text_class);
+        quizArea.find('.quiz_class').show();
+        document.getElementById("quiz_result2").style.display ="block";
     }
 });
 </script>
@@ -191,19 +194,27 @@ $(function(){
 <body id="select">
     <div class="quiz_area sample">
         <div class="quiz_set"><!-- 追加 回答中の表示 -->
-            <span class="quiz_select_no">第<span class="quiz_no">0</span>問</span>
+            <p class="quiz_select_no">第<span class="quiz_no">0</span>問</p>
             <div class="quiz_question"></div>
             <div class="qbody"></div>
-            <span class="quiz_select_answer">回答</span>
+            <div class="quiz_select_answer">回答</div>
             <div class="quiz_ans_area">
                 <ul></ul>
             </div>
             <div class="quiz_area_bg"></div>
             <div class="quiz_area_icon"></div>
         </div>
-        <div class="quiz_result">
+
+        <div id="quiz_result2" style="display:none">
+            <div class="quiz_count"></div>
+            <div class="quiz_class"></div>
+            <img src="/assets/認定証1.png" width="100%" height="100%">
+            <a href="../quiz/quiz">クイズページへ</a>
         </div><!-- 追加 クイズ終了後の表示 -->
+
     </div>
+
+    
 </body>
 
 
