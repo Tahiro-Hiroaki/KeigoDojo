@@ -1,3 +1,14 @@
+<html lang="ja">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>topのデザイン</title>
+    <%= stylesheet_link_tag "application", :media => "all" %>
+  </head>
+
+
+<body id="users">
+
 <h2>Sign up</h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -27,3 +38,7 @@
 <% end %>
 
 <%= render "users/shared/links" %>
+
+</body>
+
+</html>
