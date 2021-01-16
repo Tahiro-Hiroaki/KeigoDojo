@@ -14,6 +14,6 @@ Rails.application.routes.draw do
   get 'honorifics/write1' => 'honorifics#write1'
   get 'honorifics/write2' => 'honorifics#write2'
 
-  root 'statics#mypage'
+  root 'statics#top'
 
 end
