@@ -12,8 +12,9 @@
     background-image: url("道場.png");
     background-size: 100%;
 }
+
     .quiz_area{
-        font-size: 40px;
+        font-size: 2.2em;
         font-family: "游ゴシック",sans-serif;
         font-weight: bold;
         letter-spacing: 2px;
@@ -29,23 +30,23 @@
 
     .quiz_select_no{
         position: relative;
-        top: 70px;
+        top: 1.7em;
         padding: 10px 24px 10px 24px;
         color: #2c2c2f;
         background: khaki;
-}
+    }
 
     .quiz_question{
         position: relative;
-        top: 90px;
-        padding: 20px 60px 20px 60px;;
+        top: 2.05em;
+        padding: 1.0em;
         color: #2c2c2f;
         background-color: khaki;
     }
 
     .qbody{
         position: relative;
-        top: 90px;
+        top: 1.95em;
         padding: 20px 60px 20px 60px;;
         color: #2c2c2f;
         background-color: khaki;
@@ -53,7 +54,7 @@
 
     .quiz_select_answer{
         position: relative;
-        top: 170px;
+        top: 2.9em;
         padding: 10px 37.5px 10px 37.5px;
         color: #2c2c2f;
         background:whitesmoke
@@ -61,7 +62,7 @@
     
     .quiz_ans_area{
         position: relative;
-        top: 190px;
+        top: 3.25em;
         padding: 4px 10px 4px 10px;
         color: #2c2c2f;
         background:whitesmoke
@@ -70,7 +71,6 @@
     ul{
         line-height: 2.5;
     }
-
 
     /* 以下クイズの選択肢のデザイン */
     .quiz_area .quiz_ans_area ul{
@@ -93,7 +93,7 @@
     .quiz_area .quiz_area_bg{
         position: absolute;
         width: 100%;
-        height: 148%;
+        height: 126%;
         top: 0;
         right: 0;
         left: 0;
@@ -187,7 +187,7 @@
     background-size: 100%;
 }
         .quiz_write_area{
-            font-size: 40px;
+            font-size: 2.2em;
             font-family: "游ゴシック",sans-serif;
             font-weight: bold;
             letter-spacing: 2px;
@@ -198,7 +198,7 @@
             
             .quiz_no{
                 position: relative;
-                top: 70px;
+                top: 1.7em;
                 padding: 10px 24px 10px 24px;
                 color: #2c2c2f;
                 background: khaki;
@@ -206,8 +206,8 @@
 
             .contents1{
                 position: relative;
-                top: 90px;
-                padding: 20px 92px 20px 92px;;
+                top: 2.05em;
+                padding: 1.82em;
                 color: #2c2c2f;
                 background-color: khaki;
 
@@ -215,71 +215,71 @@
 
             .contents2{
                 position: relative;
-                top: 90px;
-                padding: 20px 92px 20px 92px;;
+                top: 2.05em;
+                padding: 1.82em;
                 color: #2c2c2f;
                 background-color: khaki;
             }
             .contents3{
                 position: relative;
-                top: 90px;
-                padding: 20px 70px 20px 70px;;
+                top: 2.05em;
+                padding: 1.3em;
                 color: #2c2c2f;
                 background-color: khaki;
             }
             .contents4{
                 position: relative;
-                top: 90px;
-                padding: 20px 92px 20px 92px;;
+                top: 2.05em;
+                padding: 1.82em;
                 color: #2c2c2f;
                 background-color: khaki;
             }
             .contents5{
                 position: relative;
-                top: 90px;
-                padding: 20px 92px 20px 92px;;
+                top: 2.05em;
+                padding: 1.82em;
                 color: #2c2c2f;
                 background-color: khaki;
         }
             .contents6{
                 position: relative;
-                top: 90px;
-                padding: 20px 92px 20px 92px;;
+                top: 2.05em;
+                padding: 1.82em;
                 color: #2c2c2f;
                 background-color: khaki;
             }
             .contents7{
                 position: relative;
-                top: 90px;
-                padding: 20px 92px 20px 92px;;
+                top: 2.05em;
+                padding: 1.82em;
                 color: #2c2c2f;
                 background-color: khaki;
             }
             .contents8{
                 position: relative;
-                top: 90px;
-                padding: 20px 92px 20px 92px;;
+                top: 2.05em;
+                padding: 1.82em;
                 color: #2c2c2f;
                 background-color: khaki;
             }
             .contents9{
                 position: relative;
-                top: 90px;
-                padding: 20px 50px 20px 50px;;
+                top: 2.05em;
+                padding: 0.7em;
                 color: #2c2c2f;
                 background-color: khaki;
             }
             .contents10{
                 position: relative;
-                top: 90px;
-                padding: 20px 70px 20px 70px;;
+                top: 2.05em;
+                padding: 1.25em;
                 color: #2c2c2f;
                 background-color: khaki;
             }
 
             .quiz_write_answer{
                 position: relative;
-                top: 170px;
+                top: 2.9em;
                 padding: 10px 33px 10px 33px;
                 color: #2c2c2f;
                 background:whitesmoke
@@ -287,7 +287,7 @@
 
             .quiz_ans_area{
                 position: relative;
-                top: 190px;
+                top: 3.25em;
                 padding: 25px 10px 65px 10px;
                 color: #2c2c2f;
                 background:whitesmoke
@@ -375,7 +375,7 @@
 
             FORM{
                 position: relative;
-                top: 125px;
+                top: 1.3em;
             }
             
         }

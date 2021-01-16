@@ -8,19 +8,17 @@
     padding: 0%;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0){
-
 #top{
     background-image: url("close.png");
     background-size: 100%;
 }
 
     .form{
-        font-size: 40px;
+        font-size: 2.5em;
         color: black;
         font-weight: bold;
         position: relative;
-        top: 570px;
+        top: 12.5em;
         line-height: 200%;
 
         text-align: center;
@@ -50,13 +48,13 @@
 }
 
     .mypage{
-        font-size: 50px;
+        font-size: 3em;
         font-weight: bold;
 
         display: flex;
         justify-content: center;
         position: relative;
-        top: 600px;
+        top: 11em;
 
         a{
             background-color: white;
@@ -74,4 +72,3 @@
         }
     }
 
-}
