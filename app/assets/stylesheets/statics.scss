@@ -8,6 +8,8 @@
     padding: 0%;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0){
+
 #top{
     background-image: url("close.png");
     background-size: 100%;
@@ -71,3 +73,5 @@
             text-decoration: none;
         }
     }
+
+}

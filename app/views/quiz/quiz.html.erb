@@ -23,7 +23,11 @@
       </div>
 
       <div class="container2">
-        <%= button_to 'ログアウト', destroy_user_session_path, method: :delete %>
+        <form class="button_to" method="post" action="/users/sign_out" >
+          <input type="hidden" name="_method" value="delete">
+          <input type="submit" value="ログアウト" style="width:100%;padding-right:10px;padding-left:10px;font-size:25px;">
+          <input type="hidden" name="authenticity_token" value="0VxmMk4AirIlfa3Yoc9qpeXM486WEHgZqMFVrZ2YvJyM6CCXn8qsUF0z/GiY/s4GBIamhUQkzLVcsAAcIQI+ZQ==">
+        </form>
       </div>
 
     </div>
