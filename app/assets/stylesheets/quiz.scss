@@ -1,68 +1,135 @@
 // Place all the styles related to the quiz controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-@media screen and (-webkit-min-device-pixel-ratio: 0){
 
-#quiz{
-    background-image: url("道場4.png");
-    background-size: 100%;
-}
-
-.container{
-
-    a:hover{
-        color:red;
-        text-decoration: none;
-        background-color: khaki;
+    #quiz{
+        background-image: url("道場4.png");
+        background-size: 100%;
     }
 
-    a{
-        color: black;
-    }
+    .container{
 
-    .container1{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        a:hover{
+            color:red;
+            text-decoration: none;
+            background-color: khaki;
+        }
 
-        .select{
-            font-size: 70px;
+        a{
             color: black;
-            position: relative;
-            top: 100px;
-            line-height: 200%;
-            font-weight: bold;
-            margin-right: 5%;
+        }
 
-            .select_title{
-                font-size: 80px;
+        .container1{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .select{
+                font-size: 70px;
+                color: black;
+                position: relative;
+                top: 100px;
+                line-height: 200%;
+                font-weight: bold;
+                margin-right: 5%;
+
+                .select_title{
+                    font-size: 80px;
+                }
+            }
+
+            .write{
+                font-size: 70px;
+                color: black;
+                position: relative;
+                top: 100px;
+                line-height: 200%;
+                font-weight: bold;
+
+                .write_title{
+                    font-size: 80px;
+                }    
             }
         }
 
-        .write{
-            font-size: 70px;
-            color: black;
-            position: relative;
-            top: 100px;
-            line-height: 200%;
+        .container2{
+            font-size: 30px;
             font-weight: bold;
+            position: relative;
+            top: 150px;
 
-            .write_title{
-                font-size: 80px;
-            }    
+            text-align: center;
+            display: flex;
+            justify-content: center;
         }
     }
 
-    .container2{
-        font-size: 30px;
-        font-weight: bold;
-        position: relative;
-        top: 150px;
 
-        text-align: center;
-        display: flex;
-        justify-content: center;
+// Place all the styles related to the quiz controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+
+    #quiz{
+        background-image: url("道場4.png");
+        background-size: 100%;
     }
-}
 
+    .container{
+
+        a:hover{
+            color:red;
+            text-decoration: none;
+            background-color: khaki;
+        }
+
+        a{
+            color: black;
+        }
+
+        .container1{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .select{
+                font-size: 70px;
+                color: black;
+                position: relative;
+                top: 100px;
+                line-height: 200%;
+                font-weight: bold;
+                margin-right: 5%;
+
+                .select_title{
+                    font-size: 80px;
+                }
+            }
+
+            .write{
+                font-size: 70px;
+                color: black;
+                position: relative;
+                top: 100px;
+                line-height: 200%;
+                font-weight: bold;
+
+                .write_title{
+                    font-size: 80px;
+                }    
+            }
+        }
+
+        .container2{
+            font-size: 30px;
+            font-weight: bold;
+            position: relative;
+            top: 130px;
+
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    }
+  
 }
