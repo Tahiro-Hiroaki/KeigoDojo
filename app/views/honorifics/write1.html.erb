@@ -42,13 +42,29 @@ function quiz1(){
 function quiz2(){					
     answer=document.getElementById("answer2").value;					
     if(answer=="いらっしゃい"){
-        alert("正解");
-        index += 1;
+         alert("正解：「来る」の尊敬語→『いらっしゃる』、『おいでになる』、『おこしになる』、『おみえになる』など");
+         index += 1;
+    }			
+    
+    else if(answer=="おいでになり"){
+         alert("正解：「来る」の尊敬語→『いらっしゃる』、『おいでになる』、『おこしになる』、『おみえになる』など");
+         index += 1;
+    }
 
-    }					
+    else if(answer=="おこしになり"){
+         alert("正解：「来る」の尊敬語→『いらっしゃる』、『おいでになる』、『おこしになる』、『おみえになる』など");
+         index += 1;
+    }
+
+    else if(answer=="おみえになり"){
+         alert("正解：「来る」の尊敬語→『いらっしゃる』、『おいでになる』、『おこしになる』、『おみえになる』など");
+         index += 1;
+    }
+
     else{					
-        alert("不正解");					
-    }   					
+        alert("不正解。正解は、いらっしゃい・おいでになり・おこしになり・おみえになり。");					
+    }   		
+    			
     //クイズ2を非表示にして、クイズ3を表示させる関数を書く					
     // noneで非表示					
     document.getElementById("quiz_area2").style.display ="none";					
@@ -59,11 +75,11 @@ function quiz2(){
 function quiz3(){					
     answer=document.getElementById("answer3").value;					
     if(answer=="めしあがり"){					
-        alert("正解");
+        alert("正解：「食べる」の尊敬語は、『お食べになる』もあるが目上の人には使わない。");
         index += 1;
     }					
     else{					
-        alert("不正解");					
+        alert("不正解。正解は、めしあがり：「食べる」の尊敬語は、『お食べになる』もあるが目上の人には使わない。");					
     }   					
     //クイズ3を非表示にして、クイズ4を表示させる関数を書く					
     // noneで非表示					
@@ -75,11 +91,11 @@ function quiz3(){
 function quiz4(){					
     answer=document.getElementById("answer4").value;					
     if(answer=="おのみ"){					
-        alert("正解");
+        alert("正解：「飲む」の尊敬語→『お飲みになる』、『召し上がる』など。");
         index += 1;
     }					
     else{					
-        alert("不正解");					
+        alert("不正解。正解は、おのみ：「飲む」の尊敬語→『お飲みになる』、『召し上がる』など。");					
     }   					
     //クイズ4を非表示にして、クイズ5を表示させる関数を書く					
     // noneで非表示					
@@ -91,11 +107,11 @@ function quiz4(){
 function quiz5(){					
     answer=document.getElementById("answer5").value;					
     if(answer=="ごらんになり"){					
-        alert("正解");
+        alert("正解：「見る」の尊敬語→『ご覧になる』、『見られる』など。");
         index += 1;
     }					
     else{					
-        alert("不正解");					
+        alert("不正解。正解は、ごらんになり：「見る」の尊敬語→『ご覧になる』、『見られる』など。");					
     }   					
     //クイズ5を非表示にして、クイズ6を表示させる関数を書く					
     // noneで非表示					
@@ -107,11 +123,11 @@ function quiz5(){
 function quiz6(){					
     answer=document.getElementById("answer6").value;				
     if(answer=="はいけんいたし"){					
-        alert("正解");
+        alert("正解：「見る」の謙譲語→『拝見する』、『見せていただく』など");
         index += 1;
     }					
     else{					
-        alert("不正解");				
+        alert("不正解。正解は、はいけんいたし：「見る」の謙譲語→『拝見する』、『見せていただく』など");				
     }   					
     //クイズ6を非表示にして、クイズ7を表示させる関数を書く				
     // noneで非表示			
@@ -123,11 +139,11 @@ function quiz6(){
 function quiz7(){				
     answer=document.getElementById("answer7").value;		
     if(answer=="ぞんじあげて"){			
-        alert("正解");
+        alert("正解：「知る」の謙譲語→『（物事を）存じる』、『（事情を）承知する』、『（人を）存じ上げる』など");
         index += 1;
     }			
     else{			
-        alert("不正解");			
+        alert("不正解。正解は、ぞんじあげて：「知る」の謙譲語→『（人を）存じ上げる』、『（物事を）存じる』、『（事情を）承知する』など");			
     }   					
     //クイズ7を非表示にして、クイズ8を表示させる関数を書く		
     // noneで非表示		
@@ -139,11 +155,11 @@ function quiz7(){
 function quiz8(){					
     answer=document.getElementById("answer8").value;			
     if(answer=="おかき"){					
-        alert("正解");
+        alert("正解：「書く」の尊敬語→『お書きになる』など");
         index += 1;
     }			
     else{					
-        alert("不正解");			
+        alert("不正解。正解は、おかき：「書く」の尊敬語→『お書きになる』など");			
     }   					
     //クイズ8を非表示にして、クイズ9を表示させる関数を書く			
     // noneで非表示			
@@ -155,11 +171,11 @@ function quiz8(){
 function quiz9(){				
     answer=document.getElementById("answer9").value;			
     if(answer=="ごぶさた"){					
-        alert("正解");
+        alert("正解：「久しぶり」の敬語は『お久しぶりです』もあるが、ビジネスの場では使わない。");
         index += 1;
     }					
     else{					
-        alert("不正解");				
+        alert("不正解。正解は、ごぶさた：「久しぶり」の敬語は『お久しぶりです』もあるが、ビジネスの場では使わない。");				
     }   					
     //クイズ9を非表示にして、クイズ10を表示させる関数を書く				
     // noneで非表示			
