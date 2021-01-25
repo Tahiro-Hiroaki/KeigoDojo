@@ -23,7 +23,6 @@ HTML、CSS、JavaScript（v1.7）、Ruby on Rails（v6.0.3.4）
 
   function quiz1(){
     answer=document.getElementById("answer1").value;
-
     if(answer=="おうかがい"){
         alert("正解：「行く」の謙譲語→『伺う』、『参る』など");
         index += 1;
@@ -31,7 +30,6 @@ HTML、CSS、JavaScript（v1.7）、Ruby on Rails（v6.0.3.4）
     else{
         alert("不正解。正解は、おうかがい：「行く」の謙譲語→『伺う』、『参る』など");
     }   
-
     //クイズ１を非表示にして、クイズ２を表示させる関数を書く
     // noneで非表示
     document.getElementById("quiz_area1").style.display ="none";
