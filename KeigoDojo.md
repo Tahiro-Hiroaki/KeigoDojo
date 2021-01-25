@@ -17,12 +17,13 @@ HTML、CSS、JavaScript（v1.7）、Ruby on Rails（v6.0.3.4）
 
 # 工夫した点
 
-・問題形式が2つある（選択、記述）。  
+・問題形式が2つある。（選択、記述）  
 ・正解数を記録し、それに応じた階級が表示される。  
 ・1問解くごとに正解、不正解、解説が表示され、次の問題へと移動する。（以下のソースコード）
 
   function quiz1(){
     answer=document.getElementById("answer1").value;
+
     if(answer=="おうかがい"){
         alert("正解：「行く」の謙譲語→『伺う』、『参る』など");
         index += 1;
@@ -30,6 +31,7 @@ HTML、CSS、JavaScript（v1.7）、Ruby on Rails（v6.0.3.4）
     else{
         alert("不正解。正解は、おうかがい：「行く」の謙譲語→『伺う』、『参る』など");
     }   
+
     //クイズ１を非表示にして、クイズ２を表示させる関数を書く
     // noneで非表示
     document.getElementById("quiz_area1").style.display ="none";
@@ -41,7 +43,7 @@ HTML、CSS、JavaScript（v1.7）、Ruby on Rails（v6.0.3.4）
 
 # デモ動画
 
-テスト用アカウント
+テスト用アカウント  
 ・E-mial（test1234@outlook.com）  
 ・パスワード（test1234）
 
