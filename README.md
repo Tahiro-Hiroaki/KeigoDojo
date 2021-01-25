@@ -1,10 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 # サイト名
 
 敬語道場
@@ -24,9 +17,10 @@ HTML、CSS、JavaScript（v1.7）、Ruby on Rails（v6.0.3.4）
 
 # 工夫した点
 
-・問題形式が2つある（選択、記述）。
-・正解数を記録し、それに応じた階級が表示される。
+・問題形式が2つある（選択、記述）。  
+・正解数を記録し、それに応じた階級が表示される。  
 ・1問解くごとに正解、不正解、解説が表示され、次の問題へと移動する。（以下のソースコード）
+
 
 function quiz1(){
     answer=document.getElementById("answer1").value;
@@ -46,12 +40,13 @@ function quiz1(){
     document.getElementById("quiz_area2").style.display ="block";
 }
 
+
 # 環境構築の手順
 
 # デモ動画
 
 テスト用アカウント
-・E-mial（test1234@outlook.com）
+・E-mial（test1234@outlook.com）  
 ・パスワード（test1234）
 
 # 注意点
@@ -61,7 +56,7 @@ function quiz1(){
 
 # 作成情報
 
-・作成者（田代裕誠）
-・所属（佐賀大学大学院1年生）
+・作成者（田代裕誠）  
+・所属（佐賀大学大学院1年生）  
 ・E-mail（shobon1019@outlook.com）
 
