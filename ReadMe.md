@@ -41,7 +41,11 @@ HTML、CSS、JavaScript（v1.7）、Ruby on Rails（v6.0.3.4）
 
 # 環境構築の手順
 
+未記入
+
 # デモ動画
+
+動画準備中
 
 テスト用アカウント  
 ・E-mial（test1234@outlook.com）  
