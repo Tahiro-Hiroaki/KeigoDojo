@@ -21,8 +21,7 @@ HTML、CSS、JavaScript（v1.7）、Ruby on Rails（v6.0.3.4）
 ・正解数を記録し、それに応じた階級が表示される。  
 ・1問解くごとに正解、不正解、解説が表示され、次の問題へと移動する。（以下のソースコード）
 
-
-function quiz1(){
+  function quiz1(){
     answer=document.getElementById("answer1").value;
 
     if(answer=="おうかがい"){
@@ -38,8 +37,7 @@ function quiz1(){
     document.getElementById("quiz_area1").style.display ="none";
     // blockで表示
     document.getElementById("quiz_area2").style.display ="block";
-}
-
+  }
 
 # 環境構築の手順
 
